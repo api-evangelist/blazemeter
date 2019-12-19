@@ -1,0 +1,171 @@
+{
+    "name": "BlazeMeter",
+    "description": "BlazeMeter platform for load and performance testing enables dev and QA teams to run scalable and continuous testing for website, mobile, api and software",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1297-blazemeter.jpg",
+    "tags": [
+        "api provider",
+        "api service provider",
+        "have api",
+        "have swagger",
+        "performance",
+        "service api",
+        "testing"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/blazemeter\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Blazemeter API Explorer",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1297-blazemeter.jpg",
+            "humanURL": "http:\/\/blazemeter.com\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/blazemeter-api-explorer-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/blazemeter-api-explorer.json"
+                }
+            ]
+        },
+        {
+            "name": "BZM API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1297-blazemeter.jpg",
+            "humanURL": "http:\/\/blazemeter.com\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/bzm-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/bzm-api.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "http:\/\/blazemeter.com\/blog"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/feedburner.google.com\/fb\/a\/mailverify?uri=JmeterCloudBlog"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/blazemeter"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/blazemeter"
+        },
+        {
+            "type": "Documentation",
+            "url": "https:\/\/guide.blazemeter.com\/hc\/en-us\/articles\/206732689-BlazeMeter-REST-APIs-BlazeMeter-REST-APIs"
+        },
+        {
+            "type": "Email",
+            "url": "marketing@blazemeter.com"
+        },
+        {
+            "type": "Email",
+            "url": "support@blazemeter.com"
+        },
+        {
+            "type": "Email",
+            "url": "sales@blazemeter.com"
+        },
+        {
+            "type": "Email",
+            "url": "info@blazemeter.com"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/Blazemeter"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/1297-2019-09-04-07-05-09.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/1297-2019-09-04-07-05-22.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/1297-2019-09-04-07-05-29.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/1297-2019-09-04-07-05-37.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/1297-2019-09-04-09-09-08.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/1297-2019-09-04-09-09-16.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/1297-2019-09-04-09-09-24.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/1297-2019-09-04-09-09-31.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/1297-2019-09-04-09-09-39.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/1297-2019-09-04-09-09-46.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/1297-2019-09-04-09-10-14.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/1297-2019-09-04-09-10-21.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/1297-2019-09-04-09-10-36.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/1297-2019-09-04-09-10-43.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/1297-2019-09-04-07-23-54.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/1297-2019-09-04-07-24-48.json"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/BlazeMeter"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/blazemeter.com\/"
+        }
+    ]
+}
