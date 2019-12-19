@@ -1,0 +1,409 @@
+{
+    "id": "a09530a73107d2f83fc2b0738bb62557",
+    "name": "Blazemeter API Explorer",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "41d3d69f18738b5f8e028c3029536095",
+            "name": "&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+            "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/active\/sessions",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "rawModeData": ""
+        },
+        {
+            "id": "8510f9aaab60d6318d24a9174ab966cc",
+            "name": "&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+            "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/active\/terminate",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "rawModeData": ""
+        },
+        {
+            "id": "72b96314d2a886767caa8a0c9c1da5d9",
+            "name": "List organization multi-tests&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+            "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/collections",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "skip",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "rawModeData": ""
+        },
+        {
+            "id": "74a9dcf4847d087223405e7c25b3a2c4",
+            "name": "&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+            "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/invites",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "rawModeData": ""
+        },
+        {
+            "id": "99d9829e894dc2b6388840cffa4bec07",
+            "name": "Get user available locations&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+            "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/locations",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "rawModeData": ""
+        },
+        {
+            "id": "ed98f5c5e50974934cae8ef8b99cdb48",
+            "name": "List user private masters&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+            "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/masters",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "skip",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "rawModeData": ""
+        },
+        {
+            "id": "28257dcfffed4a0466177a479402a45a",
+            "name": "Update user name&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+            "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/password",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "rawModeData": ""
+        },
+        {
+            "id": "c43d3a7c342f43167972648aabdc06d1",
+            "name": "Update user name&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+            "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/password",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "rawModeData": ""
+        },
+        {
+            "id": "9de7f2abc67410ca6ae81bd39815ef2a",
+            "name": "Update user name&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+            "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/password",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "rawModeData": ""
+        },
+        {
+            "id": "d9d18e4c2f2a790687fe293e3a00a63d",
+            "name": "Get user projects&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+            "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/projects",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "rawModeData": ""
+        },
+        {
+            "id": "e034c8e39dae1704726d0991428490b1",
+            "name": "Registration&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+            "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/register",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "email",
+                    "description": "Email address",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "password",
+                    "description": "Password",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "firstName",
+                    "description": "First name",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "lastName",
+                    "description": "Last name",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "rawModeData": ""
+        },
+        {
+            "id": "19aecb7bd595897a18b06e0b0d28d4bb",
+            "name": "Registration&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+            "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/register",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "rawModeData": ""
+        },
+        {
+            "id": "d87b219bd57a46b63093e4070a032241",
+            "name": "List user private tests&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+            "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/tests",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "skip",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "rawModeData": ""
+        },
+        {
+            "id": "0e7568a3c31ea2d8a3edd9a556418a49",
+            "name": "&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+            "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/top",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "rawModeData": ""
+        }
+    ]
+}
