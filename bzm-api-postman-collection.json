@@ -1,0 +1,307 @@
+{
+    "id": "cf0d7ffde89282b0f8bc5321c765ecf5",
+    "name": "BZM API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "c4673c548b0f2a4483476d04658c1285",
+            "name": "list Tests",
+            "url": "http:\/\/a.blazemeter.com\/api\/v4\/tests",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cf0d7ffde89282b0f8bc5321c765ecf5",
+            "rawModeData": ""
+        },
+        {
+            "id": "0476d4a7ced06c42d5e9f8229e93852c",
+            "name": "create a new Test",
+            "url": "http:\/\/a.blazemeter.com\/api\/v4\/tests",
+            "description": "create",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cf0d7ffde89282b0f8bc5321c765ecf5",
+            "rawModeData": ""
+        },
+        {
+            "id": "0500cd8b1c7fb718be35d375fea28516",
+            "name": "",
+            "url": "http:\/\/a.blazemeter.com\/api\/v4\/tests\/{testId}",
+            "description": "get test",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cf0d7ffde89282b0f8bc5321c765ecf5",
+            "rawModeData": ""
+        },
+        {
+            "id": "02fbfec406cee520583285743290654e",
+            "name": "",
+            "url": "http:\/\/a.blazemeter.com\/api\/v4\/tests\/{testId}",
+            "description": "update test fields",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cf0d7ffde89282b0f8bc5321c765ecf5",
+            "rawModeData": ""
+        },
+        {
+            "id": "87434455c5b1a496b8cfcbdcae8d2abe",
+            "name": "",
+            "url": "http:\/\/a.blazemeter.com\/api\/v4\/tests\/{testId}",
+            "description": "use PATCH",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cf0d7ffde89282b0f8bc5321c765ecf5",
+            "rawModeData": ""
+        },
+        {
+            "id": "71f26be21b88b45d6f22825768ebf696",
+            "name": "",
+            "url": "http:\/\/a.blazemeter.com\/api\/v4\/tests\/{testId}",
+            "description": "delete test",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cf0d7ffde89282b0f8bc5321c765ecf5",
+            "rawModeData": ""
+        },
+        {
+            "id": "b059024a318f3c9069d75fac572c2603",
+            "name": "",
+            "url": "http:\/\/a.blazemeter.com\/api\/v4\/tests\/{testId}\/start",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "parameters",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cf0d7ffde89282b0f8bc5321c765ecf5",
+            "rawModeData": ""
+        },
+        {
+            "id": "c83c85b8dcbaa3406d147137426b6362",
+            "name": "",
+            "url": "http:\/\/a.blazemeter.com\/api\/v4\/tests\/{testId}\/start",
+            "description": "start a new report from test",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cf0d7ffde89282b0f8bc5321c765ecf5",
+            "rawModeData": ""
+        },
+        {
+            "id": "1c072c2aa67cb5fb6a40cb0d69d6e05b",
+            "name": "list reports",
+            "url": "http:\/\/a.blazemeter.com\/api\/v4\/reports",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cf0d7ffde89282b0f8bc5321c765ecf5",
+            "rawModeData": ""
+        },
+        {
+            "id": "c14d241437a8f22570a794270d9416e6",
+            "name": "get report",
+            "url": "http:\/\/a.blazemeter.com\/api\/v4\/reports\/{reportId}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cf0d7ffde89282b0f8bc5321c765ecf5",
+            "rawModeData": ""
+        }
+    ]
+}
