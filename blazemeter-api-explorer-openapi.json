@@ -1,0 +1,470 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "4",
+        "title": "Blazemeter API Explorer",
+        "description": "Live API Documentation",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "http:\/\/a.blazemeter.com\/api\/v4"
+    ],
+    "paths": {
+        "\/user\/active\/sessions": {
+            "get": {
+                "summary": "&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+                "description": "",
+                "operationId": "ActiveSessions",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/blazemeterModelApiResponse"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/user\/active\/terminate": {
+            "post": {
+                "summary": "&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+                "description": "",
+                "operationId": "PanicTerminate",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/blazemeterModelApiResponse"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/user\/collections": {
+            "get": {
+                "summary": "List organization multi-tests&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+                "description": "",
+                "operationId": "RetrieveCollections",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "skip",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/blazemeterModelApiResponse"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/user\/invites": {
+            "get": {
+                "summary": "&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+                "description": "",
+                "operationId": "RetrieveInvites",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/blazemeterModelApiResponse"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/user\/locations": {
+            "get": {
+                "summary": "Get user available locations&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+                "description": "",
+                "operationId": "RetrieveLocations",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/blazemeterModelApiResponse"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/user\/masters": {
+            "get": {
+                "summary": "List user private masters&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+                "description": "",
+                "operationId": "RetrieveMasters",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "skip",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/blazemeterModelApiResponse"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/user\/password": {
+            "patch": {
+                "summary": "Update user name&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+                "description": "",
+                "operationId": "UserPasswordPatch",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/blazemeterModelApiResponse"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "summary": "Update user name&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+                "description": "",
+                "operationId": "UserPasswordPost",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/blazemeterModelApiResponse"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "put": {
+                "summary": "Update user name&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+                "description": "",
+                "operationId": "UserPasswordPut",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/blazemeterModelApiResponse"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/user\/projects": {
+            "get": {
+                "summary": "Get user projects&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+                "description": "",
+                "operationId": "RetrieveProjects",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/blazemeterModelApiResponse"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/user\/register": {
+            "get": {
+                "summary": "Registration&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+                "description": "",
+                "operationId": "RegisterRetrieve",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "email",
+                        "in": "query",
+                        "description": "Email address"
+                    },
+                    {
+                        "name": "password",
+                        "in": "query",
+                        "description": "Password"
+                    },
+                    {
+                        "name": "firstName",
+                        "in": "query",
+                        "description": "First name"
+                    },
+                    {
+                        "name": "lastName",
+                        "in": "query",
+                        "description": "Last name"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/blazemeterModelApiResponse"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "summary": "Registration&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+                "description": "",
+                "operationId": "Register",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/blazemeterModelApiResponse"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/user\/tests": {
+            "get": {
+                "summary": "List user private tests&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+                "description": "",
+                "operationId": "RetrieveTests",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "skip",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/blazemeterModelApiResponse"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/user\/top": {
+            "get": {
+                "summary": "&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
+                "description": "",
+                "operationId": "Top",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/blazemeterModelApiResponse"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "ApiResponse": {
+                "type": "object",
+                "properties": {
+                    "api_version": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "error": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "result": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "UserModel1": {
+                "type": "object",
+                "properties": {
+                    "currentPassword": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "newPassword": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "UserModel2": {
+                "type": "object",
+                "properties": {
+                    "currentPassword": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "newPassword": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "UserModel3": {
+                "type": "object",
+                "properties": {
+                    "currentPassword": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "newPassword": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "UserModel4": {
+                "type": "object",
+                "properties": {
+                    "email": {
+                        "description": "Email address",
+                        "type": "string"
+                    },
+                    "firstName": {
+                        "description": "First name",
+                        "type": "string"
+                    },
+                    "lastName": {
+                        "description": "Last name",
+                        "type": "string"
+                    },
+                    "password": {
+                        "description": "Password",
+                        "type": "string"
+                    }
+                }
+            },
+            "UserModel5": {
+                "type": "object",
+                "properties": {
+                    "session_ids": {
+                        "description": "",
+                        "type": "array"
+                    }
+                }
+            },
+            "session_ids": {
+                "type": "array"
+            },
+            "blazemeter\\Model\\ApiResponse": {
+                "type": "object"
+            },
+            "blazemeter\\Routing\\v4\\UserModel1": {
+                "type": "object"
+            },
+            "blazemeter\\Routing\\v4\\UserModel2": {
+                "type": "object"
+            },
+            "blazemeter\\Routing\\v4\\UserModel3": {
+                "type": "object"
+            },
+            "blazemeter\\Routing\\v4\\UserModel4": {
+                "type": "object"
+            },
+            "blazemeter\\Routing\\v4\\UserModel5": {
+                "type": "object"
+            },
+            "blazemeterModelApiResponse": {
+                "type": "object"
+            }
+        }
+    }
+}
