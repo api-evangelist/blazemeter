@@ -1,0 +1,685 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "0.0.1",
+        "title": "BZM API",
+        "description": "BZM API",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "http:\/\/a.blazemeter.com\/api\/v4"
+    ],
+    "paths": {
+        "\/tests": {
+            "get": {
+                "summary": "list Tests",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Test"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "summary": "create a new Test",
+                "description": "create",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Test"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/tests\/{testId}": {
+            "get": {
+                "summary": "",
+                "description": "get test",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Test"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "patch": {
+                "summary": "",
+                "description": "update test fields",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Test"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "put": {
+                "summary": "",
+                "description": "use PATCH",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Test"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "delete": {
+                "summary": "",
+                "description": "delete test",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "404": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/ApiResponseError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/tests\/{testId}\/start": {
+            "parameters": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "",
+                "description": "start a new report from test",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Test"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/reports": {
+            "get": {
+                "summary": "list reports",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Test"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/reports\/{reportId}": {
+            "get": {
+                "summary": "get report",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Test"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "TestPlugins": {
+                "type": "object",
+                "properties": {
+                    "modStatus": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Configuration": {
+                "type": "object",
+                "properties": {
+                    "location": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "consoleSize": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "enginesSize": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "calculatedDuration": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "indexOffset": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "collectionIndexOffset": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "serversCount": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "concurrency": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "delayedStart": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "dedicatedIpsEnabled": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "javaVersion": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "canControlRampup": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "targetThreads": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "overrideLocationId": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "isSandbox": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "execution": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "enableJMeterProperties": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "TestPlugins": {
+                        "description": "",
+                        "type": "object"
+                    },
+                    "plugins": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "Test": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "draftId": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "isNewTest": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "lastRunTime": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "oldVersionId": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "userId": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "createdUsing": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "project": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "lastUpdatedBy": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "Configuration": {
+                        "description": "",
+                        "type": "object"
+                    },
+                    "configuration": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "UserInternal": {
+                        "description": "",
+                        "type": "object"
+                    }
+                }
+            },
+            "project": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "userId": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "workspace": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "lastUpdatedBy": {
+                "type": "object"
+            },
+            "UserInternal": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "email": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "access": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "login": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "firstName": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "lastName": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "company": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "timezone": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "enabled": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "apiKey": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "phone": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "provider": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "herokuAppName": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "maxApiKeyExpiry": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "personalWorkspace": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "project": {
+                        "description": "Reference",
+                        "type": "object"
+                    },
+                    "defaultProject": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "workspace": {
+                        "description": "Reference",
+                        "type": "object"
+                    }
+                }
+            },
+            "personalWorkspace": {
+                "type": "object"
+            },
+            "workspace": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "userId": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "salesForceId": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "dedicatedIpsEnabled": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "privateLocationsEnabled": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "performanceLabsEnabled": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "enabled": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "members": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "accountId": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "accountName": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "members": {
+                "type": "array"
+            },
+            "Member": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "enabled": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "UserInternal": {
+                        "description": "",
+                        "type": "object"
+                    },
+                    "user": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "ApiResponse": {
+                "type": "object",
+                "properties": {
+                    "api_version": {
+                        "description": "",
+                        "type": "integer"
+                    }
+                }
+            },
+            "ApiResponseResult": {
+                "type": "object"
+            },
+            "ApiResponseResultPaginated": {
+                "type": "object"
+            },
+            "ApiResponseError": {
+                "type": "object"
+            },
+            "Report": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "userId": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "publicToken": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "ended": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "lastUpdate": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "delayedStartReady": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "runnerUserId": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "passed": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "canControlRampup": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "targetThreads": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "parallelTestsInWorkspace": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "parallelTestsInAccount": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "isSandbox": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "isPrivateData": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "executionMode": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "Test": {
+                        "description": "",
+                        "type": "object"
+                    },
+                    "test": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "project": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            }
+        }
+    }
+}
