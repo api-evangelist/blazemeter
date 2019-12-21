@@ -1,5 +1,5 @@
 {
-    "id": "a09530a73107d2f83fc2b0738bb62557",
+    "id": "a948873be8f2800901cfc92c3f43388f",
     "name": "Blazemeter API Explorer",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "41d3d69f18738b5f8e028c3029536095",
+            "id": "50eca10bbf164392190323f5bddf122c",
             "name": "&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
             "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/active\/sessions",
             "description": "",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "collectionId": "a948873be8f2800901cfc92c3f43388f",
             "rawModeData": ""
         },
         {
-            "id": "8510f9aaab60d6318d24a9174ab966cc",
+            "id": "9945aa4b7a8cb5945574d1aebc46e195",
             "name": "&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
             "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/active\/terminate",
             "description": "",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "collectionId": "a948873be8f2800901cfc92c3f43388f",
             "rawModeData": ""
         },
         {
-            "id": "72b96314d2a886767caa8a0c9c1da5d9",
+            "id": "26f61f334481d4922cfc0daad8d557fe",
             "name": "List organization multi-tests&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
             "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/collections",
             "description": "",
@@ -90,11 +90,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "collectionId": "a948873be8f2800901cfc92c3f43388f",
             "rawModeData": ""
         },
         {
-            "id": "74a9dcf4847d087223405e7c25b3a2c4",
+            "id": "f6c5a6e6791ad4e67ad7c8a5a988fbfa",
             "name": "&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
             "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/invites",
             "description": "",
@@ -113,11 +113,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "collectionId": "a948873be8f2800901cfc92c3f43388f",
             "rawModeData": ""
         },
         {
-            "id": "99d9829e894dc2b6388840cffa4bec07",
+            "id": "f3feec86d4267dbbecc42c0cd97e8a85",
             "name": "Get user available locations&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
             "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/locations",
             "description": "",
@@ -136,11 +136,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "collectionId": "a948873be8f2800901cfc92c3f43388f",
             "rawModeData": ""
         },
         {
-            "id": "ed98f5c5e50974934cae8ef8b99cdb48",
+            "id": "6409952343ef55f7a21e1d08bfa63537",
             "name": "List user private masters&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
             "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/masters",
             "description": "",
@@ -174,11 +174,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "collectionId": "a948873be8f2800901cfc92c3f43388f",
             "rawModeData": ""
         },
         {
-            "id": "28257dcfffed4a0466177a479402a45a",
+            "id": "cb9645f50bd2757a6279ba1f094618ce",
             "name": "Update user name&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
             "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/password",
             "description": "",
@@ -197,11 +197,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "collectionId": "a948873be8f2800901cfc92c3f43388f",
             "rawModeData": ""
         },
         {
-            "id": "c43d3a7c342f43167972648aabdc06d1",
+            "id": "b441926861e3b56b05f0af29492d826d",
             "name": "Update user name&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
             "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/password",
             "description": "",
@@ -220,11 +220,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "collectionId": "a948873be8f2800901cfc92c3f43388f",
             "rawModeData": ""
         },
         {
-            "id": "9de7f2abc67410ca6ae81bd39815ef2a",
+            "id": "38add015450f25c35ca389200853c683",
             "name": "Update user name&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
             "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/password",
             "description": "",
@@ -243,11 +243,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "collectionId": "a948873be8f2800901cfc92c3f43388f",
             "rawModeData": ""
         },
         {
-            "id": "d9d18e4c2f2a790687fe293e3a00a63d",
+            "id": "f7fa6e1a2bbc61baf1235a7eec115f9a",
             "name": "Get user projects&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
             "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/projects",
             "description": "",
@@ -266,11 +266,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "collectionId": "a948873be8f2800901cfc92c3f43388f",
             "rawModeData": ""
         },
         {
-            "id": "e034c8e39dae1704726d0991428490b1",
+            "id": "637924f819522927ef2669e5089d944d",
             "name": "Registration&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
             "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/register",
             "description": "",
@@ -318,11 +318,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "collectionId": "a948873be8f2800901cfc92c3f43388f",
             "rawModeData": ""
         },
         {
-            "id": "19aecb7bd595897a18b06e0b0d28d4bb",
+            "id": "a50ad6a2af5f590d1a10a2d4ee84b7ae",
             "name": "Registration&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
             "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/register",
             "description": "",
@@ -341,11 +341,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "collectionId": "a948873be8f2800901cfc92c3f43388f",
             "rawModeData": ""
         },
         {
-            "id": "d87b219bd57a46b63093e4070a032241",
+            "id": "e05fe6d3a97244c3823bbea210cadb38",
             "name": "List user private tests&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
             "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/tests",
             "description": "",
@@ -379,11 +379,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "collectionId": "a948873be8f2800901cfc92c3f43388f",
             "rawModeData": ""
         },
         {
-            "id": "0e7568a3c31ea2d8a3edd9a556418a49",
+            "id": "60bdeb11ce406cc846003d6f2d75ecec",
             "name": "&nbsp; <i class=\"fa fa-lg fa-unlock-alt\"><\/i>",
             "url": "http:\/\/a.blazemeter.com\/api\/v4\/user\/top",
             "description": "",
@@ -402,7 +402,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "a09530a73107d2f83fc2b0738bb62557",
+            "collectionId": "a948873be8f2800901cfc92c3f43388f",
             "rawModeData": ""
         }
     ]
