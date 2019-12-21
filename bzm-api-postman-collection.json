@@ -1,5 +1,5 @@
 {
-    "id": "cf0d7ffde89282b0f8bc5321c765ecf5",
+    "id": "57b308f83a5bea4607136233e555d54d",
     "name": "BZM API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "c4673c548b0f2a4483476d04658c1285",
+            "id": "8bac5ffb690b7c98b0051532ad2f8c57",
             "name": "list Tests",
             "url": "http:\/\/a.blazemeter.com\/api\/v4\/tests",
             "description": "",
@@ -37,11 +37,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "cf0d7ffde89282b0f8bc5321c765ecf5",
+            "collectionId": "57b308f83a5bea4607136233e555d54d",
             "rawModeData": ""
         },
         {
-            "id": "0476d4a7ced06c42d5e9f8229e93852c",
+            "id": "1716854148b28edf61bb9ae2e414af02",
             "name": "create a new Test",
             "url": "http:\/\/a.blazemeter.com\/api\/v4\/tests",
             "description": "create",
@@ -60,11 +60,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "cf0d7ffde89282b0f8bc5321c765ecf5",
+            "collectionId": "57b308f83a5bea4607136233e555d54d",
             "rawModeData": ""
         },
         {
-            "id": "0500cd8b1c7fb718be35d375fea28516",
+            "id": "91944d9bb0060e044d5b170df20b6c36",
             "name": "",
             "url": "http:\/\/a.blazemeter.com\/api\/v4\/tests\/{testId}",
             "description": "get test",
@@ -91,11 +91,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "cf0d7ffde89282b0f8bc5321c765ecf5",
+            "collectionId": "57b308f83a5bea4607136233e555d54d",
             "rawModeData": ""
         },
         {
-            "id": "02fbfec406cee520583285743290654e",
+            "id": "a16e085786cd93d30057ad18c92d1468",
             "name": "",
             "url": "http:\/\/a.blazemeter.com\/api\/v4\/tests\/{testId}",
             "description": "update test fields",
@@ -122,11 +122,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "cf0d7ffde89282b0f8bc5321c765ecf5",
+            "collectionId": "57b308f83a5bea4607136233e555d54d",
             "rawModeData": ""
         },
         {
-            "id": "87434455c5b1a496b8cfcbdcae8d2abe",
+            "id": "22e968c745052d186e522230d58eb788",
             "name": "",
             "url": "http:\/\/a.blazemeter.com\/api\/v4\/tests\/{testId}",
             "description": "use PATCH",
@@ -153,11 +153,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "cf0d7ffde89282b0f8bc5321c765ecf5",
+            "collectionId": "57b308f83a5bea4607136233e555d54d",
             "rawModeData": ""
         },
         {
-            "id": "71f26be21b88b45d6f22825768ebf696",
+            "id": "9f5ee31de75c1e100e059faa9c066c93",
             "name": "",
             "url": "http:\/\/a.blazemeter.com\/api\/v4\/tests\/{testId}",
             "description": "delete test",
@@ -184,11 +184,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "cf0d7ffde89282b0f8bc5321c765ecf5",
+            "collectionId": "57b308f83a5bea4607136233e555d54d",
             "rawModeData": ""
         },
         {
-            "id": "b059024a318f3c9069d75fac572c2603",
+            "id": "f1d91d5630d7622b1265ed393c6f7e25",
             "name": "",
             "url": "http:\/\/a.blazemeter.com\/api\/v4\/tests\/{testId}\/start",
             "description": "",
@@ -207,11 +207,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "cf0d7ffde89282b0f8bc5321c765ecf5",
+            "collectionId": "57b308f83a5bea4607136233e555d54d",
             "rawModeData": ""
         },
         {
-            "id": "c83c85b8dcbaa3406d147137426b6362",
+            "id": "bae397e664801a995ca378f11699c5b3",
             "name": "",
             "url": "http:\/\/a.blazemeter.com\/api\/v4\/tests\/{testId}\/start",
             "description": "start a new report from test",
@@ -238,11 +238,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "cf0d7ffde89282b0f8bc5321c765ecf5",
+            "collectionId": "57b308f83a5bea4607136233e555d54d",
             "rawModeData": ""
         },
         {
-            "id": "1c072c2aa67cb5fb6a40cb0d69d6e05b",
+            "id": "372f60303198496a598db56367c875d1",
             "name": "list reports",
             "url": "http:\/\/a.blazemeter.com\/api\/v4\/reports",
             "description": "",
@@ -269,11 +269,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "cf0d7ffde89282b0f8bc5321c765ecf5",
+            "collectionId": "57b308f83a5bea4607136233e555d54d",
             "rawModeData": ""
         },
         {
-            "id": "c14d241437a8f22570a794270d9416e6",
+            "id": "73e8237337e69ee4c0f2928b67e9b545",
             "name": "get report",
             "url": "http:\/\/a.blazemeter.com\/api\/v4\/reports\/{reportId}",
             "description": "",
@@ -300,7 +300,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "cf0d7ffde89282b0f8bc5321c765ecf5",
+            "collectionId": "57b308f83a5bea4607136233e555d54d",
             "rawModeData": ""
         }
     ]
